@@ -12,8 +12,9 @@
 		D0377B5B2BE8DB1200BC8EBE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0377B5A2BE8DB1200BC8EBE /* main.cpp */; };
 		D0377B632BE8DECD00BC8EBE /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0377B5F2BE8DBCF00BC8EBE /* SDL2.framework */; };
 		D0377B642BE8DECD00BC8EBE /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0377B5F2BE8DBCF00BC8EBE /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D0FADC622BEA0B5C002C90FE /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FADC612BEA0B5C002C90FE /* SDL2.framework */; };
-		D0FADC642BEA0B87002C90FE /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FADC632BEA0B87002C90FE /* SDL2.framework */; };
+		D09B799A2BEBB556005B4088 /* task_101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D09B79992BEBB556005B4088 /* task_101.cpp */; };
+		D09B799C2BEBB59F005B4088 /* task_102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D09B799B2BEBB59F005B4088 /* task_102.cpp */; };
+		D09B799E2BEBB62A005B4088 /* task_103.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D09B799D2BEBB62A005B4088 /* task_103.cpp */; };
 		D0FADC662BEA2D8D002C90FE /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FADC652BEA2D8D002C90FE /* SDL2.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +41,9 @@
 		D0377B5A2BE8DB1200BC8EBE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D0377B5D2BE8DBA100BC8EBE /* SDL2-2.30.3.dmg */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SDL2-2.30.3.dmg"; path = "../../Downloads/SDL2-2.30.3.dmg"; sourceTree = "<group>"; };
 		D0377B5F2BE8DBCF00BC8EBE /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
-		D0FADC612BEA0B5C002C90FE /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Volumes/SDL2/SDL2.framework; sourceTree = "<group>"; };
-		D0FADC632BEA0B87002C90FE /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Volumes/SDL2/SDL2.framework; sourceTree = "<group>"; };
+		D09B79992BEBB556005B4088 /* task_101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = task_101.cpp; sourceTree = "<group>"; };
+		D09B799B2BEBB59F005B4088 /* task_102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = task_102.cpp; sourceTree = "<group>"; };
+		D09B799D2BEBB62A005B4088 /* task_103.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = task_103.cpp; sourceTree = "<group>"; };
 		D0FADC652BEA2D8D002C90FE /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,9 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0FADC622BEA0B5C002C90FE /* SDL2.framework in Frameworks */,
 				D0377B632BE8DECD00BC8EBE /* SDL2.framework in Frameworks */,
-				D0FADC642BEA0B87002C90FE /* SDL2.framework in Frameworks */,
 				D0FADC662BEA2D8D002C90FE /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,10 +82,11 @@
 			children = (
 				D0377B592BE8DA4200BC8EBE /* Info.plist */,
 				D0377B4C2BE8DA0700BC8EBE /* Assets.xcassets */,
-				D0FADC612BEA0B5C002C90FE /* SDL2.framework */,
-				D0FADC632BEA0B87002C90FE /* SDL2.framework */,
+				D09B79992BEBB556005B4088 /* task_101.cpp */,
 				D0FADC652BEA2D8D002C90FE /* SDL2.framework */,
 				D0377B532BE8DA0700BC8EBE /* game3.entitlements */,
+				D09B799B2BEBB59F005B4088 /* task_102.cpp */,
+				D09B799D2BEBB62A005B4088 /* task_103.cpp */,
 				D0377B5A2BE8DB1200BC8EBE /* main.cpp */,
 				D0377B492BE8DA0600BC8EBE /* game3.xcdatamodeld */,
 			);
@@ -170,7 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09B799A2BEBB556005B4088 /* task_101.cpp in Sources */,
 				D0377B5B2BE8DB1200BC8EBE /* main.cpp in Sources */,
+				D09B799C2BEBB59F005B4088 /* task_102.cpp in Sources */,
+				D09B799E2BEBB62A005B4088 /* task_103.cpp in Sources */,
 				D0377B4B2BE8DA0600BC8EBE /* game3.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
