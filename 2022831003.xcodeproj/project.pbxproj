@@ -33,7 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D0377B432BE8DA0600BC8EBE /* game3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = game3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0377B432BE8DA0600BC8EBE /* 2022831003.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2022831003.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0377B4A2BE8DA0600BC8EBE /* game3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = game3.xcdatamodel; sourceTree = "<group>"; };
 		D0377B4C2BE8DA0700BC8EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0377B532BE8DA0700BC8EBE /* game3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = game3.entitlements; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		D0377B442BE8DA0600BC8EBE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0377B432BE8DA0600BC8EBE /* game3.app */,
+				D0377B432BE8DA0600BC8EBE /* 2022831003.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,9 +105,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D0377B422BE8DA0600BC8EBE /* game3 */ = {
+		D0377B422BE8DA0600BC8EBE /* 2022831003 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0377B562BE8DA0700BC8EBE /* Build configuration list for PBXNativeTarget "game3" */;
+			buildConfigurationList = D0377B562BE8DA0700BC8EBE /* Build configuration list for PBXNativeTarget "2022831003" */;
 			buildPhases = (
 				D0377B3F2BE8DA0600BC8EBE /* Sources */,
 				D0377B402BE8DA0600BC8EBE /* Frameworks */,
@@ -118,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = game3;
+			name = 2022831003;
 			productName = game3;
-			productReference = D0377B432BE8DA0600BC8EBE /* game3.app */;
+			productReference = D0377B432BE8DA0600BC8EBE /* 2022831003.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D0377B3E2BE8DA0600BC8EBE /* Build configuration list for PBXProject "game3" */;
+			buildConfigurationList = D0377B3E2BE8DA0600BC8EBE /* Build configuration list for PBXProject "2022831003" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D0377B422BE8DA0600BC8EBE /* game3 */,
+				D0377B422BE8DA0600BC8EBE /* 2022831003 */,
 			);
 		};
 /* End PBXProject section */
@@ -362,7 +362,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D0377B3E2BE8DA0600BC8EBE /* Build configuration list for PBXProject "game3" */ = {
+		D0377B3E2BE8DA0600BC8EBE /* Build configuration list for PBXProject "2022831003" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0377B542BE8DA0700BC8EBE /* Debug */,
@@ -371,7 +371,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0377B562BE8DA0700BC8EBE /* Build configuration list for PBXNativeTarget "game3" */ = {
+		D0377B562BE8DA0700BC8EBE /* Build configuration list for PBXNativeTarget "2022831003" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0377B572BE8DA0700BC8EBE /* Debug */,
