@@ -100,7 +100,7 @@ void collision() {
         r.w = SCREEN_WIDTH;
         r.h = SCREEN_HEIGHT;
 
-        SDL_SetRenderDrawColor(renderer, 0, 102, 50, 255);
+        SDL_SetRenderDrawColor(renderer, 0, 102, 52, 255);
         SDL_RenderClear(renderer);
 
         SDL_SetRenderDrawColor(renderer, 200, 150, 25, 255);
