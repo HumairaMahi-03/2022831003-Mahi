@@ -80,15 +80,15 @@
 		D0377B452BE8DA0600BC8EBE /* game3 */ = {
 			isa = PBXGroup;
 			children = (
-				D0377B592BE8DA4200BC8EBE /* Info.plist */,
 				D0377B4C2BE8DA0700BC8EBE /* Assets.xcassets */,
-				D09B79992BEBB556005B4088 /* task_101.cpp */,
-				D0FADC652BEA2D8D002C90FE /* SDL2.framework */,
 				D0377B532BE8DA0700BC8EBE /* game3.entitlements */,
+				D0377B492BE8DA0600BC8EBE /* game3.xcdatamodeld */,
+				D0377B592BE8DA4200BC8EBE /* Info.plist */,
+				D0377B5A2BE8DB1200BC8EBE /* main.cpp */,
+				D0FADC652BEA2D8D002C90FE /* SDL2.framework */,
+				D09B79992BEBB556005B4088 /* task_101.cpp */,
 				D09B799B2BEBB59F005B4088 /* task_102.cpp */,
 				D09B799D2BEBB62A005B4088 /* task_103.cpp */,
-				D0377B5A2BE8DB1200BC8EBE /* main.cpp */,
-				D0377B492BE8DA0600BC8EBE /* game3.xcdatamodeld */,
 			);
 			path = game3;
 			sourceTree = "<group>";
